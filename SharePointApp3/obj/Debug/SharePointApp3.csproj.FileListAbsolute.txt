@@ -1,0 +1,4 @@
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\SharePointApp3\bin\Debug\SharePointApp3.dll.config
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\SharePointApp3\bin\Debug\SharePointApp3.pdb
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\SharePointApp3\obj\Debug\SharePointApp3.dll
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\SharePointApp3\obj\Debug\SharePointApp3.pdb

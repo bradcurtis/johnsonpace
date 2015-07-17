@@ -1,0 +1,114 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="IFCustomRibbon" Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Tabs.InfoPathHomeTab.FormActions.Controls._children">
+          <Button Id="Ribbon.Tabs.Lcms.FormActions.Controls.Complete"
+            Sequence="70" Command="CompleteForm"
+            Image16by16="/_layouts/$Resources:core,Language;/images/formatmap16x16.png" Image16by16Top="-48" Image16by16Left="-48"
+           Image32by32="/_layouts/$Resources:core,Language;/images/formatmap32x32.png" Image32by32Top="0" Image32by32Left="-96"
+           LabelText="Complete"
+           TemplateAlias="o2"
+           ToolTipTitle="Complete"
+           ToolTipDescription="$Resources:CcaLcms,cui_desc_CompleteForm;"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="JohnsonPace.Commands.InfoPathPrinter.Print"
+                          CommandAction="javascript:
+                          var patt = /.+_FormControl.+__ViewContainer/gi;
+                          var alldivs = document.getElementsByTagName('div');
+                          var printpageHTML = '';
+                          for(var i=0; i&lt;alldivs.length; i++){
+                            if(patt.test(alldivs[i].id)){
+                              printpageHTML = '&lt;HTML&gt;&lt;HEAD&gt;\n' +
+                                              document.getElementsByTagName('HEAD')[0].innerHTML +
+                                              '&lt;/HEAD&gt;\n&lt;BODY&gt;\n' + 
+                                              alldivs[i].innerHTML.replace('inline-block','block') + 
+                                              '\n&lt;/BODY&gt;&lt;/HTML&gt;';
+                              break;
+                            }
+                          }
+                          var printWindow = window.open('','printWindow');
+                          printWindow.document.open();
+                          printWindow.document.write(printpageHTML);
+                          printWindow.document.close();
+                          printWindow.print();
+                          printWindow.close();
+                          ">
+        </CommandUIHandler>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+
+
+  <!--  <CustomAction Id="JohnsonPace.Ribbon.InfoPathPrinter"
+                Location="CommandUI.Ribbon"
+                Sequence="20">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="JohnsonPace.Ribbon.Templates.Groups.InfoPathPrinter">
+            <Layout Title="InfoPathPrinter" LayoutTitle="InfoPathPrinter">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="PrintButton"/>
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Tabs.InfoPathHomeTab.FormActions.Controls._children">
+          <MaxSize Id="JohnsonPace.Ribbon.Groups.InfoPathPrinter.MaxSize"
+                   Sequence="15"
+                   GroupId="JohnsonPace.Ribbon.Groups.InfoPathPrinter"
+                   Size="InfoPathPrinter"/>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Tabs.InfoPathHomeTab.FormActions.Controls._children">
+          <Group Id="JohnsonPace.Ribbon.Groups.InfoPathPrinter"
+                 Sequence="15"
+                 Description="InfoPath Form Printing"
+                 Title="Print"
+                 Template="JohnsonPace.Ribbon.Templates.Groups.InfoPathPrinter">
+            <Controls Id="JohnsonPace.Ribbon.Groups.InfoPathPrinter.Controls">
+              <Button Id="JohnsonPace.Ribbon.Groups.InfoPathPrinter.Print"
+                  Command="JohnsonPace.Commands.InfoPathPrinter.Print"
+                  Sequence="5"
+                  Image16by16="/_layouts/images/InfoPathPrinterIcon16.png"
+                  Image32by32="/_layouts/images/InfoPathPrinterIcon.png"
+                  Description="Prints an InfoPath Form"
+                  LabelText="Print"
+                  TemplateAlias="PrintButton"/>
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="JohnsonPace.Commands.InfoPathPrinter.Print"
+                          CommandAction="javascript:
+                          var patt = /.+_FormControl.+__ViewContainer/gi;
+                          var alldivs = document.getElementsByTagName('div');
+                          var printpageHTML = '';
+                          for(var i=0; i&lt;alldivs.length; i++){
+                            if(patt.test(alldivs[i].id)){
+                              printpageHTML = '&lt;HTML&gt;&lt;HEAD&gt;\n' +
+                                              document.getElementsByTagName('HEAD')[0].innerHTML +
+                                              '&lt;/HEAD&gt;\n&lt;BODY&gt;\n' + 
+                                              alldivs[i].innerHTML.replace('inline-block','block') + 
+                                              '\n&lt;/BODY&gt;&lt;/HTML&gt;';
+                              break;
+                            }
+                          }
+                          var printWindow = window.open('','printWindow');
+                          printWindow.document.open();
+                          printWindow.document.write(printpageHTML);
+                          printWindow.document.close();
+                          printWindow.print();
+                          printWindow.close();
+                          ">
+        </CommandUIHandler>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>-->
+
+</Elements>

@@ -1,0 +1,4 @@
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\InfoPathPrintButton\bin\Debug\InfoPathPrintButton.dll
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\InfoPathPrintButton\bin\Debug\InfoPathPrintButton.pdb
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\InfoPathPrintButton\obj\Debug\InfoPathPrintButton.dll
+C:\Users\brad4\Documents\Visual Studio 2013\Projects\SharePointApp1\InfoPathPrintButton\obj\Debug\InfoPathPrintButton.pdb

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="JohnsonPaceInfoPathPrinter">
+    <File Path="JohnsonPaceInfoPathPrinter\Sample.txt" Url="JohnsonPaceInfoPathPrinter/Sample.txt" />
+    <File Path="JohnsonPaceInfoPathPrinter\InfoPathPrinterIcon.png" Url="JohnsonPaceInfoPathPrinter/InfoPathPrinterIcon.png" />
+    <File Path="JohnsonPaceInfoPathPrinter\InfoPathPrinterIcon16.png" Url="JohnsonPaceInfoPathPrinter/InfoPathPrinterIcon16.png" />
+    
+  </Module>
+
+  <CustomAction
+    Id="123.SharePoint.Ribbon.NewControlInExistingGroup"
+    Location="CommandUI.Ribbon" Sequence="20">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Tabs.InfoPathListTab.Commit.Controls._children">
+          <Button Id="Ribbon.Tabs.Lcms.FormActions.Controls.Complete"
+             Sequence="70" 
+             Command="COB.Command.NewControlInExistingGroup.Notify"
+            Image32by32="/_layouts/15/images/InfoPathPrinterIcon.png"
+            Image16by16="/_layouts/15/images/InfoPathPrinterIcon16.png"
+            LabelText="Print"
+            TemplateAlias="o2"
+            ToolTipTitle="Print"
+            />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="COB.Command.NewControlInExistingGroup.Notify"
+          CommandAction="javascript:
+                          var patt = /.+_FormControl.+__ViewContainer/gi;
+                          var alldivs = document.getElementsByTagName('div');
+                          var printpageHTML = '';
+                          for(var i=0; i&lt;alldivs.length; i++){
+                            if(patt.test(alldivs[i].id)){
+                              printpageHTML = '&lt;HTML&gt;&lt;HEAD&gt;\n' +
+                                              document.getElementsByTagName('HEAD')[0].innerHTML +
+                                              '&lt;/HEAD&gt;\n&lt;BODY&gt;\n' + 
+                                              alldivs[i].innerHTML.replace('inline-block','block') + 
+                                              '\n&lt;/BODY&gt;&lt;/HTML&gt;';
+                              break;
+                            }
+                          }
+                          var printWindow = window.open('','printWindow');
+                          printWindow.document.open();
+                          printWindow.document.write(printpageHTML);
+                          printWindow.document.close();
+                          printWindow.print();
+                          printWindow.close();
+                          " />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  
+
+
+</Elements>

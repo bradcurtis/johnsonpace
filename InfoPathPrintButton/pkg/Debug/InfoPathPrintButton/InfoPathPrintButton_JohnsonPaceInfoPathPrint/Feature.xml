@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Johnson Pace InfoPath Printer" Id="c42b4c10-2289-4265-9b31-976fab425f67" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="JohnsonPaceInfoPathPrinter\Elements.xml" />
+    <ElementFile Location="JohnsonPaceInfoPathPrinter\Sample.txt" />
+    <ElementFile Location="JohnsonPaceInfoPathPrinter\InfoPathPrinterIcon.png" />
+    <ElementFile Location="JohnsonPaceInfoPathPrinter\InfoPathPrinterIcon16.png" />
+  </ElementManifests>
+</Feature>

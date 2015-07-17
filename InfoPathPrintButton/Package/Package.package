@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="084f4cf5-6e97-4ed9-8e72-013f7492dbf0" solutionId="084f4cf5-6e97-4ed9-8e72-013f7492dbf0" resetWebServer="false" sharePointProductVersion="15.0" name="InfoPathPrintButton" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="f8683530-ad58-4b0c-8c21-525676aa46ab" />
+    <featureReference itemId="e95ded5e-bbb3-4d3d-8c82-e9998b19a8f6" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="3cd67ec9-d17a-41f2-a1e1-6222c66ab716" />
+    <projectItemReference itemId="bdc8fb71-dd17-47b9-935a-f06006eac407" />
+  </projectItems>
+</package>

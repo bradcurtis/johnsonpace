@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="084f4cf5-6e97-4ed9-8e72-013f7492dbf0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="InfoPathPrintButton.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\images\InfoPathPrinterIcon.png" />
+    <TemplateFile Location="Layouts\images\InfoPathPrinterIcon16.png" />
+    <TemplateFile Location="Layouts\images\InfoPathPrinter\InfoPathPrinterIcon.png" />
+    <TemplateFile Location="Layouts\images\InfoPathPrinter\InfoPathPrinterIcon16.png" />
+    <TemplateFile Location="Images\InfoPathPrinterIcon.png" />
+    <TemplateFile Location="Images\InfoPathPrinterIcon16.png" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="InfoPathPrintButton_Feature1\Feature.xml" />
+    <FeatureManifest Location="InfoPathPrintButton_JohnsonPaceInfoPathPrint\Feature.xml" />
+  </FeatureManifests>
+</Solution>

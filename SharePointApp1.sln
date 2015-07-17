@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp3", "SharePointApp3\SharePointApp3.csproj", "{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp3Web", "SharePointApp3Web\SharePointApp3Web.csproj", "{1703684C-AA47-415B-ACF9-E5AA550B5A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPathPrintButton", "InfoPathPrintButton\InfoPathPrintButton.csproj", "{7F0762C3-9376-48F5-8549-91C084491CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C00F87E-DC76-43B6-BFEC-A24F9470D25F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1703684C-AA47-415B-ACF9-E5AA550B5A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1703684C-AA47-415B-ACF9-E5AA550B5A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1703684C-AA47-415B-ACF9-E5AA550B5A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1703684C-AA47-415B-ACF9-E5AA550B5A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

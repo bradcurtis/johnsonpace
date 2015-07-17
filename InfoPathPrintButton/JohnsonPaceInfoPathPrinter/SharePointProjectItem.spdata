@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="JohnsonPaceInfoPathPrinter\" Type="ElementManifest" />
+    <ProjectItemFile Source="Sample.txt" Target="JohnsonPaceInfoPathPrinter\" Type="ElementFile" />
+    <ProjectItemFile Source="InfoPathPrinterIcon.png" Target="JohnsonPaceInfoPathPrinter\" Type="ElementFile" />
+    <ProjectItemFile Source="InfoPathPrinterIcon16.png" Target="JohnsonPaceInfoPathPrinter\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
