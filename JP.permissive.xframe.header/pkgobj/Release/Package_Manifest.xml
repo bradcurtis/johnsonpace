@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="af9484b8-49e9-48e5-8749-87fdfee1647f" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Ventigrate.Shared.PermissiveXFrameHeader.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="IMAGES\VNTG\PERMISSIVEXFRAME\FeatureIcon.png" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Ventigrate.Shared.PermissiveXFrameHeader_PERMISSIVEXFRAME\Feature.xml" />
+  </FeatureManifests>
+</Solution>

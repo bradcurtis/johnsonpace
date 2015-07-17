@@ -1,0 +1,5 @@
+C:\Ventigrate.Shared.PermissiveXFrameHeader\bin\Debug\Ventigrate.Shared.PermissiveXFrameHeader.dll
+C:\Ventigrate.Shared.PermissiveXFrameHeader\bin\Debug\Ventigrate.Shared.PermissiveXFrameHeader.pdb
+C:\Ventigrate.Shared.PermissiveXFrameHeader\obj\Debug\Ventigrate.Shared.PermissiveXFrameHeader.csprojResolveAssemblyReference.cache
+C:\Ventigrate.Shared.PermissiveXFrameHeader\obj\Debug\Ventigrate.Shared.PermissiveXFrameHeader.dll
+C:\Ventigrate.Shared.PermissiveXFrameHeader\obj\Debug\Ventigrate.Shared.PermissiveXFrameHeader.pdb

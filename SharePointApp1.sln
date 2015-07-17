@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointApp3Web", "ShareP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPathPrintButton", "InfoPathPrintButton\InfoPathPrintButton.csproj", "{7F0762C3-9376-48F5-8549-91C084491CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JP.Shared.PermissiveXFrameHeader", "..\..\..\..\Documents\Visual Studio 2013\Projects\SharePointApp1\JP.Permissive.XFrame.Header\JP.Shared.PermissiveXFrameHeader.csproj", "{3B370C5C-2B00-462C-9CEE-314D7981BF33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,12 @@ Global
 		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F0762C3-9376-48F5-8549-91C084491CBF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B370C5C-2B00-462C-9CEE-314D7981BF33}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

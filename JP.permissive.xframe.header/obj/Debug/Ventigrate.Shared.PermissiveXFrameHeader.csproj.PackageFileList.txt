@@ -1,0 +1,1 @@
+bin\Debug\Ventigrate.Shared.PermissiveXFrameHeader.wsp

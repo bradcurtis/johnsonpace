@@ -1,0 +1,4 @@
+C:\Ventigrate.Shared.PermissiveXFrameHeader\bin\Debug\JP.Shared.PermissiveXFrameHeader.dll
+C:\Ventigrate.Shared.PermissiveXFrameHeader\bin\Debug\JP.Shared.PermissiveXFrameHeader.pdb
+C:\Ventigrate.Shared.PermissiveXFrameHeader\obj\Debug\JP.Shared.PermissiveXFrameHeader.dll
+C:\Ventigrate.Shared.PermissiveXFrameHeader\obj\Debug\JP.Shared.PermissiveXFrameHeader.pdb
